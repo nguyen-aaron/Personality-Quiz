@@ -1,0 +1,80 @@
+.final-answer img {
+  height: 100px;
+}
+
+.final-answer {
+  display: none;
+}
+
+[data-final-answer="creative-introvert"] #creative-introvert, 
+[data-final-answer="logical-introvert"] #logical-introvert,
+[data-final-answer="creative-extrovert"] #creative-extrovert,
+[data-final-answer="logical-extrovert"] #logical-extrovert {
+  display: block; 
+}
+
+.choice-row {
+  display: none;
+}
+
+.show-section {
+  display: block;
+}
+
+
+
+
+#play-again-button {
+  display: inline-block;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px #999;
+}
+
+#play-again-button:hover {
+  background-color: #3e8e41
+}
+
+#play-again-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#share-button {
+  display: inline-block;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #24e1f9;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px #999;
+}
+
+#share-button:hover {
+  background-color: #40ccce
+}
+
+#share-button:active {
+  background-color: #40ccce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+
